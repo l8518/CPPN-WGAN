@@ -10,6 +10,24 @@ Generate images by running:
 python CPPN/cppn.py
 ```
 
+# CMD commands
+
+`--random_seed` -> seed
+
+`--layer_size` --> layers of the network?
+
+`--dim` --> resolution of the image
+
+`--cchannel` --> 1 for bw / 3 --> coloured
+
+`--scaling` --> scale factor
+
+Call examples:
+```
+python cppn.py --random_seed 0 --layer_size 6 --dim 900 --cchannel 1
+python cppn.py --random_seed 0 --layer_size 6 --dim 900 --cchannel 3
+python cppn.py --random_seed 0 --layer_size 16 --dim 2 --cchannel 3 --scaling 90
+```
 ## Examples
 
 <p align='center'>

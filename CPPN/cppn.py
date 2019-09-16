@@ -113,6 +113,7 @@ def save_image(image_data, c_dim = 1):
     plt.gca().yaxis.set_major_locator(matplotlib.ticker.NullLocator())
     
     savefig('examples/figure_' 
+            + str(args.dim) + '_' 
             + str(args.cchannel) + '_' 
             + str(args.random_seed) + '_' 
             + str(args.layer_size) + '.png', bbox_inches='tight', pad_inches=0.0)
